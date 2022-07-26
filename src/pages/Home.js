@@ -4,11 +4,11 @@ import { Parallax } from 'react-parallax'
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      {/* <h1>Home</h1> */}
 
-    <Parallax blur={10} bgImage="https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png" bgImageAlt="colorful" strength={200}>
+    <Parallax blur={10} bgImage="https://thumbs.dreamstime.com/z/background-grey-brick-wall-great-cool-background-wallpaper-background-grey-brick-wall-great-cool-171615096.jpg" bgImageAlt="greyBrickWall" strength={200}>
         Content goes here. Parallax height grows with content height.
-        <div style={{ height: '300px' }} />
+        <div style={{ height: '500px' }} />
 
     </Parallax>
     </div>

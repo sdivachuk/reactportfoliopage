@@ -5,7 +5,7 @@ import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
 
-export default function Welcome({ loggedIn, setLoggedIn }) {
+export default function Welcome() {
 
   const [page, setPage] = useState('home');
 
