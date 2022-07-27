@@ -1,7 +1,7 @@
 // import './App.css';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -14,11 +14,11 @@ function App() {
     <BrowserRouter> 
      <Nav></Nav>
     <Routes>
-    <Route path='/Home' element={<Home/>}/> 
     <Route path='/About' element={<About/>}/> 
+    <Route path='/Portfolio' element={<Portfolio/>}/> 
     <Route path='/Contact' element={<Contact/>}/> 
     <Route path='/Resume' element={<Resume/>}/> 
-    <Route path='/' element={<Home/>}/> 
+    <Route path='/' element={<About/>}/> 
 
     </Routes>
 

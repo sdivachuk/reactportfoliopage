@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
-import Home from '../pages/Home';
+import Portfolio from '../pages/Portfolio';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
 
 export default function Welcome() {
 
-  const [page, setPage] = useState('home');
+  const [page, setPage] = useState('about');
 
   let CurrectPage;
 
-  if (page === 'home') CurrectPage = Home;
+  if (page === 'portfolio') CurrectPage = Portfolio;
   if (page === 'about') CurrectPage = About;
   if (page === 'contact') CurrectPage = Contact;
   if (page === 'resume') CurrectPage = Resume;
