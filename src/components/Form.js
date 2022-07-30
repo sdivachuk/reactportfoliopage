@@ -8,16 +8,18 @@ function Form() {
       <card id="textCard">
         <div>
           <form className="contactForm">
-            <input type="text" placeholder="Name" />
+            <label>Name </label>
+            <input type="text" className="inputfield" placeholder="" />
           </form>
           <form className="contactForm">
-            <input type="text" placeholder="email" />
+          <label>Email </label>
+            <input type="text" className="inputfield" placeholder="" />
           </form>
         </div>
-        <form className="contactForm">
-          <input type="text-box" placeholder="" />
+        <form className="contactForm" >
+          <textarea className="inputfield" id="subject"  placeholder="" />
           <div>
-            <button type="button">Submit</button>
+            <button id="formbtn" type="button">Submit</button>
           </div>
         </form>
       </card>

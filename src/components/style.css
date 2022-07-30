@@ -1,3 +1,6 @@
+.body {
+    background-color: #ccc;
+}
 a{
     margin: 16px;
     padding: 16px;
@@ -30,17 +33,27 @@ h1 {
 }
 
 #textCard {
-    width: 100%;
+    width: 50%;
     padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
+    margin: auto;
+    display: block;
+    border: 4px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     text-align: center;
+    
+}
+.inputfield {
+    font-size: 20px;
+}
+
+#subject {
+    height:80px;
+    width: 300px;
 }
 .contactForm {
     padding: 8px;
+    font-size: 20px;
 }
 
 #footerDiv {
@@ -50,4 +63,22 @@ h1 {
     width: 100%;
     background-color: black;
     color: #f2f2f2;
+}
+
+#resumepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#note {
+    text-align: right;
+}
+
+#formbtn {
+    margin: 4px;
+    padding: 4px 8px;
+    font-size: 20px;
+    border-radius: 4px;
 }
