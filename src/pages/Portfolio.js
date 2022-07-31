@@ -4,6 +4,8 @@ const Portfolio = () => {
   return (
     <div className="contact" >
       <h1>Portfolio</h1>
+      <section id="portSec" >
+
     <card className="profileCard">
       <img src="quizScreenShot.png" alt="code quiz" className="portfolioImg"></img>
     </card>
@@ -28,6 +30,7 @@ const Portfolio = () => {
       <img src="moviePreferences.png" alt="movie preferences" className="portfolioImg"></img>
       </card>
 
+      </section>
     </div>
   )
 }
