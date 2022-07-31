@@ -1,4 +1,3 @@
-// import './App.css';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
@@ -19,9 +18,7 @@ function App() {
     <Route path='/Contact' element={<Contact/>}/> 
     <Route path='/Resume' element={<Resume/>}/> 
     <Route path='/' element={<About/>}/> 
-
     </Routes>
-
      <Footer></Footer> 
      </BrowserRouter>
     </div>
