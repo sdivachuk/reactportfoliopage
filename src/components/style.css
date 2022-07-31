@@ -92,3 +92,14 @@ h1 {
     font-size: 20px;
     border-radius: 4px;
 }
+
+#aboutPage {
+    display: table;
+    font-size: 20px;
+}
+
+#myPic {
+    float: left;
+    height: auto;
+    margin-top: -80px;
+}
