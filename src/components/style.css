@@ -79,15 +79,6 @@ h1 {
     font-size: 20px;
 }
 
-#footerDiv {
-    position: bottom;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: #f2f2f2;
-    padding: 20px;
-}
 
 #resumepic {
     display: block;
@@ -128,8 +119,6 @@ h1 {
 
 .profileCard {
     display: inline-block;
-    /* flex-wrap: wrap; 
-    flex: 4; */
     align-items: flex;
     padding: 12px;
     margin: 40px;
@@ -219,5 +208,26 @@ p:before {
     border-radius:6px;
     font-size:13px;
     box-shadow:10px10px 40px -14px #000}
-
+    
 span{margin:0 5px 0 15px} 
+
+#footerDiv {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+#gitlogo {
+    width: 36px;
+    margin-right: 20px;
+}
+
+#linkedinlogo {
+    width: 36px;
+    margin-left: 20px;
+}
