@@ -15,6 +15,14 @@ a{
     font-weight: 600;
 }
 
+#navName {
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    margin-bottom: -28px;
+    
+}
+
 #navBar a:hover {
     color: black;
 }
@@ -22,7 +30,13 @@ a{
 #navBar{
     overflow: hidden;
     padding: 40px;
+    text-align: right;
 }
+
+#container {
+    display: block;
+}
+
 #bgimg{
     background-image: url(https://t4.ftcdn.net/jpg/03/01/59/71/240_F_301597103_xQNdJ1F2eKcVox3XAQ3ZZRiFvpKjtiPh.jpg);
     min-height: 40px;
@@ -30,13 +44,11 @@ a{
     background-repeat: no-repeat; 
     position: relative;
 } 
-#container {
-    text-align: right;
-}
 
 .contact {
     padding: 24px 0 20vh 0;
     background-color: #ADCAD6;
+    height: 100%;
 }
 
 h1 {
@@ -68,7 +80,7 @@ h1 {
 }
 
 #footerDiv {
-    position: fixed;
+    position: bottom;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -90,19 +102,13 @@ h1 {
     padding-right: 12px;
 }
 
-#formbtn {
-    margin: 4px;
-    padding: 4px 8px;
-    font-size: 20px;
-    border-radius: 4px;
-}
-
 #aboutPage {
     display: table;
 }
 #aboutinfo {
     font-size: 20px;
     padding-top: 16px;
+    margin-bottom: -100px;
 }
 
 #myPic {
@@ -121,13 +127,15 @@ h1 {
 }
 
 .profileCard {
-    flex-wrap: wrap; 
-    flex: 4;
-    align-items: flex-start;
+    display: inline-block;
+    /* flex-wrap: wrap; 
+    flex: 4; */
+    align-items: flex;
     padding: 12px;
     margin: 40px;
     height: 40vh;
     box-sizing: border-box;
+    color: black;
 }
 
 #portSec {
@@ -136,3 +144,80 @@ h1 {
     flex-wrap: wrap; 
     justify-content: space-evenly;
 }
+
+.hoverImage:hover .hoverLink {
+    display: block;
+}
+
+.hoverLink {
+    display: none;
+}
+.form {
+    width:340px;
+    height:440px;
+    background:white;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin: 10vh auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative
+}
+
+input {
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2
+}
+
+input:focus {
+    border-bottom:2px solid #78788c
+}
+
+p:before {
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#5a5a5a
+}
+
+#sendbtn {
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;
+    background:0;
+    color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s
+}
+
+#sendbtn:hover {
+    background:#78788c;
+    color:#fff
+}
+
+#contactinfo {
+    position:absolute;
+    bottom:-15px;
+    right:-20px;
+    background:#50505a;
+    color:#fff;
+    width:320px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size:13px;
+    box-shadow:10px10px 40px -14px #000}
+
+span{margin:0 5px 0 15px} 
