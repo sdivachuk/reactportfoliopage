@@ -142,9 +142,8 @@ h1 {
 }
 .hoverLink:hover {
     /* display: block !important; */
-    background-color: red;
+    /* background-color: red; */
     opacity: .8;
-    border: 5px solid salmon;
 }
 .hoverLink a {
     color: #000;
