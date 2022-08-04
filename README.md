@@ -40,10 +40,10 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
 ## Visuals
-- [img]()
+- [img](https://tinyurl.com/2xrgdwfn)
 
 ## Resources
-- [Live Site]()
+- [Live Site](https://mighty-cliffs-46876.herokuapp.com/)
 - [Repository](https://github.com/sdivachuk/reactportfoliopage)
 
 
