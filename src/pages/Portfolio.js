@@ -5,8 +5,8 @@ const Portfolio = () => {
     <div className="contact">
       <h1>Portfolio</h1>
       <section id="portSec">
-        <card className="profileCard">
-          <div className="hoverImage">
+        <card className="profileCard hoverImage">
+          <div>
             <img
               src="quizScreenShot.png"
               alt="code quiz"

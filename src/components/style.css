@@ -137,9 +137,18 @@ h1 {
 .hoverImage:hover .hoverLink {
     display: block;
 }
-
 .hoverLink {
-    display: none;
+    /* display: none; */
+}
+.hoverLink:hover {
+    /* display: block !important; */
+    background-color: red;
+    opacity: .8;
+    border: 5px solid salmon;
+}
+.hoverLink a {
+    color: #000;
+    transition: all .2s ease-in;
 }
 .form {
     width:340px;
